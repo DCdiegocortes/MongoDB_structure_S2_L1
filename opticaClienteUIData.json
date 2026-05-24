@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "6a0d98a8a30f87e816098740"
+  },
+  "telefono": "678921235",
+  "email": "email@email.com",
+  "nombre": "Lulu",
+  "direccion": {
+    "calle": "av paralel",
+    "numero": 123,
+    "piso": "2",
+    "puerta": "B",
+    "ciudad": "Barcelona",
+    "codigo_postal": "08001",
+    "pais": "España"
+  },
+  "compras": [
+    {
+      "fecha": "2024-01-10",
+      "empleado": "Robert",
+      "gafas": {
+        "marca": "Gentle Monster",
+        "graduacion": {
+          "izq": 2.3,
+          "der": 2
+        },
+        "montura": {
+          "tipo": "Acrilico"
+        },
+        "lentes": {
+          "izq": "transparente",
+          "der": "transparente"
+        },
+        "precio": 127,
+        "proveedor": {
+          "nombre": "ProveedorGroove",
+          "telefono": "912345678",
+          "fax": "912345679",
+          "nif": "A12345678",
+          "direccion": {
+            "calle": "Av.Rua Agusta",
+            "numero": 23,
+            "ciudad": "Lisboa",
+            "codigo_postal": "45633",
+            "pais": "Portugal"
+          }
+        }
+      }
+    }
+  ],
+  "fecha_registro": "2023-09-23",
+  "recomendado_por": "sioux"
+}]
